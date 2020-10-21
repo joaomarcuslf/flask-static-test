@@ -8,7 +8,11 @@ def health():
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    data = {
+        'sitename': 'http://joaomarcuslf.com'
+    }
+
+    return render_template('index.html', data=data)
 
 if __name__ == '__main__':
     app.run(debug=True)

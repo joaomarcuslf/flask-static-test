@@ -20,7 +20,7 @@
         <nav class="navbar">
           <div class="container">
             <div class="navbar-brand">
-              <a class="navbar-item" href="{{ data.sitename }}">
+              <a class="navbar-item" href="http://joaomarcuslf.com">
                 <img src="static/img/logo-hex.png" alt="Logo">
               </a>
 
@@ -56,15 +56,15 @@
 
             <div class="column is-6 is-offset-1">
               <h1 class="title is-2">
-                {{data.name}}
+                João Marcus Fernandes
               </h1>
               <h2 class="subtitle is-4">
-                {{data.overallRank}}
+                5 kyu
               </h2>
               <br>
               <p class="has-text-centered">
-                <a class="button is-medium is-info is-outlined" href="{{ data.sitename }}">
-                  {{data.username}}
+                <a class="button is-medium is-info is-outlined" href="http://joaomarcuslf.com">
+                  joaomarcuslf
                 </a>
               </p>
             </div>
@@ -72,11 +72,23 @@
           <div class="columns is-vcentered">
 
             <div class="column is-5 is-offset-7">
-              {% for language in data['languages'] %}
+              
                 <p class="has-text-left">
-                  {{ language }}: {{data['languages'][language]}}
+                  javascript: 6 kyu
                 </p>
-              {% endfor %}
+              
+                <p class="has-text-left">
+                  go: 8 kyu
+                </p>
+              
+                <p class="has-text-left">
+                  python: 6 kyu
+                </p>
+              
+                <p class="has-text-left">
+                  r: 8 kyu
+                </p>
+              
             </div>
           </div>
         </div>
